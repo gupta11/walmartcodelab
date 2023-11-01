@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Walmart codelab</string>
+    <string name="country">Country</string>
+    <string name="region">Region</string>
+    <string name="code">Code</string>
+    <string name="capital">Capital</string>
+</resources>
