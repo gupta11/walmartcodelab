@@ -23,10 +23,9 @@
 
             <TextView
                 android:id="@+id/country_name"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:paddingEnd="10dp"
                 android:singleLine="true"
                 android:text="@{countryRegion}"
                 tools:text="testCountryRegion"
@@ -37,11 +36,10 @@
 
             <TextView
                 android:id="@+id/code"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:maxLines="1"
-                android:paddingEnd="10dp"
                 android:singleLine="true"
                 tools:text="testCode"
                 android:text="@{country.code}"
@@ -52,12 +50,10 @@
 
             <TextView
                 android:id="@+id/capital"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:maxLines="1"
-                android:paddingEnd="10dp"
-                android:singleLine="true"
                 android:text="@{country.capital}"
                 tools:text="test Country capital"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
