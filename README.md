@@ -20,6 +20,7 @@ Things to improve (Future):
 - I know right now the service is open source API but in case if it becomes authenticated we will need a login mechanism into the app.
 - Better Error messaging. Something to add would be alert dialogs to show in case something went wrong with the option to re-fetch the data
 - More testing in this project can benefit it significantly.
+- Handle the network errors better. I created the result wrapper but did not get a chance to hook it up. I also do not know the error message structure coming back from the server so doing this would have been futile.
 ``
 # Threat Assessment: 
 
